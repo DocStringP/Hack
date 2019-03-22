@@ -1,6 +1,5 @@
 def bubble_sort(items):
-
-'''Return array of items, sorted in ascending order'''
+    '''Return array of items, sorted in ascending order'''
 
     length = len(items) - 1
     sorted = False
@@ -17,8 +16,7 @@ def bubble_sort(items):
 #####next
 
 def merge_sort(items):
-
-'''Return array of items, sorted in ascending order'''
+    '''Return array of items, sorted in ascending order'''
 
     if len(items) < 2:
         return items
@@ -38,8 +36,7 @@ def merge_sort(items):
 #####next
 
 def quick_sort(items):
-
-'''Return array of items, sorted in ascending order'''
+    '''Return array of items, sorted in ascending order'''
 
     if len(items) <= 1:
         return items
