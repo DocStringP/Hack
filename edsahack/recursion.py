@@ -17,7 +17,7 @@ def sum_array(array):
 
 def fibonacci(n):
 
-'''Return nth term in fibonacci sequence'''
+    '''Return nth term in fibonacci sequence'''
 
     if n <= 1:
         return 1
@@ -28,7 +28,7 @@ def fibonacci(n):
 
 def factorial(n):
 
-'''Return n!'''
+    '''Return n!'''
 
     if n <= 1:
         return n
@@ -38,9 +38,8 @@ def factorial(n):
 #######next
 
 def reverse(word):
-
-'''Return word in reverse'''
-'''input a string into function i.e input must be in '', e.g 'word' '''
+    '''Return word in reverse'''
+    '''input a string into function i.e input must be in '', e.g 'word' '''
 
     reversal = word[::-1]
     return reversal
