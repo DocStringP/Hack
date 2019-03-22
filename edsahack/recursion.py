@@ -1,6 +1,6 @@
 def sum_array(array):
 
-'''Return sum of all items in array'''
+    '''Return sum of all items in array'''
 
     if type(array) == int:
         return array
