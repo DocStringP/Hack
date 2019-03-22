@@ -9,6 +9,6 @@ setup(
     long_description=open('README.md').read(),
     install_requires=['numpy'],
     url='https://github.com/DocStringP/Hack.git',
-    author='Lesa Moloi>',
-    author_email='<lesamoloi11@gmail.com>'
+    author='Lesa Moloi',
+    author_email='lesamoloi11@gmail.com'
 )
